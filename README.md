@@ -1,8 +1,9 @@
 # turbosms
-[TurboSMS](https://turbosms.ua/) lib for perl.
+[TurboSMS](https://turbosms.ua/) **SOAP** api lib for perl.
 ## Dependencies:
 `SOAP::Lite, HTTP::Cookies`
 ## Usage:
+Make sure that you enabled SOAP api usage in [gateway connection](https://turbosms.ua/route.html) options.
 ```
 use strict;
 no warnings;
